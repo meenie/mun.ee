@@ -1,0 +1,28 @@
+{
+	"title": "Munee: Standalone PHP 5.3 Asset Optimisation & Manipulation",
+	"tagline": "On-The-Fly Image Resizing, On-the-fly LESS, SASS, CoffeeScript Compiling, CSS & JavaScript Combining/Minifying, and Smart Client Side and Server Side Caching",
+	"image": "/img/app.png",
+    "theme": "custom",
+    "colors": {
+        "sidebar-background": "#f7f7f7",
+        "sidebar-hover": "#c5c5cb",
+        "lines": "#e7e7e9",
+        "dark": "#3f4657",
+        "light": "#E2ECEE",
+        "light-text": "#82becd",
+        "text": "#2d2d2d",
+        "syntax-string": "#022e99",
+        "syntax-comment": "#84989b",
+        "syntax-number": "#2f9b92",
+        "syntax-label": "#840d7a"
+    },
+	"repo": "meenie/munee",
+    "float": false,
+	"twitter": ["MuneePHP"],
+	"google_analytics": "UA-37554496-2",
+	"links": {
+		"GitHub Repo": "https://github.com/meenie/munee",
+		"Help/Support/Bugs": "https://github.com/meenie/munee/issues",
+		"Made by Cody Lundquist": "https://github.com/meenie"
+	}
+}
