@@ -11,7 +11,7 @@
 <div class="row features">
     <div class="span5"><i class="feature-icon icon-flag"></i>
 
-        <h4>Easy To Install &amp; Use</h4>
+        <h4><a href="/Installation_Instructions">Easy To Install &amp; Use</a></h4>
 
         <p>
             Using <a href="http://getcomposer.org" target="_blank">Composer</a>, <em><strong>Munee</strong></em> can be
