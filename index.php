@@ -204,6 +204,10 @@ if ($homepage && $homepage_url !== '/') {
 									</div>
 								<?php } ?>
 							<?php } ?>
+                            <a href="http://flattr.com/thing/1191331/Munee-Optimising-Your-Assets" target="_blank"><img style="padding-bottom: 10px" src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a>
+                            <a href="http://travis-ci.org/meenie/munee"><img style="padding-bottom: 10px" src="https://secure.travis-ci.org/meenie/munee.png?branch=master" alt="Build Status" style="max-width:100%;"></a>
+                            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://mun.ee" data-text="Munee: Standalone PHP5.3 Asset Optimisation &amp; Manipulation - Easy Image Resizing &amp; LESS Compiling" data-via="MuneePHP">Tweet</a>
+                            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 						</div>
 					</div>
 				</div>
@@ -252,6 +256,10 @@ if ($homepage && $homepage_url !== '/') {
 										<iframe allowtransparency="true" frameborder="0" scrolling="no" style="width:162px; height:20px;" src="https://platform.twitter.com/widgets/follow_button.html?screen_name=<?php echo $handle;?>&amp;show_count=false"></iframe>
 									</div>
 								<?php } ?>
+                                <a href="http://flattr.com/thing/1191331/Munee-Optimising-Your-Assets" target="_blank"><img style="padding-bottom: 10px" src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a>
+                                <a href="http://travis-ci.org/meenie/munee"><img style="padding-bottom: 10px" src="https://secure.travis-ci.org/meenie/munee.png?branch=master" alt="Build Status" style="max-width:100%;"></a>
+                                <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://mun.ee" data-text="Munee: Standalone PHP5.3 Asset Optimisation &amp; Manipulation - Easy Image Resizing &amp; LESS Compiling" data-via="MuneePHP">Tweet</a>
+                                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 							</div>
 						<?php } ?>
 					</div>
