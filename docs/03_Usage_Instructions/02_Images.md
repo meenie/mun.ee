@@ -47,7 +47,7 @@ echo \Munee\Dispatcher::run(new \Munee\Request(array('image' => array('checkRefe
     <td><code>placeholders</code></td>
     <td>Boolean|Array</td>
     <td><code>false</code></td>
-    <td>Setup placeholders to be used for any images are missing. Placeholder services like http://placedog.com can be used as well. Examples can be found below.</td>
+    <td>Setup placeholders to be used for any images are missing. Placeholder services like http://placedog.com can be used as well. <a href="#placeholders">Examples can be found below</a>.</td>
   </tr>
 </table>
 ______
@@ -209,4 +209,47 @@ ______
 This would covert the image to it's negative form.
 ```html
 <img src="/img/my-image.jpg?negative=true">
+```
+________
+
+<h2 id="placeholders">Placeholders</h2>
+
+A new feature in *Munee* is being able to use image placeholders for missing images. This is a great feature to have if you are designer just starting a new site and don't necessarily have all of your images available.  You can specify a specific image or use one of the numerous image placeholder websites out there like http://placedog.com.
+
+You can also specify different image paths for different placeholder images as well. So if you want a different image for all of your /img/category/* images and another for all of your /img/product/* images, it's very easy to do.
+
+**Note:** When specifying which images on your site you want to use placeholders for, you can use a wildcard (*) reference.
+
+```php
+// Use a specific image for all missing images.
+echo \Munee\Dispatcher::run(
+    new \Munee\Request(array(
+        'image' => array(
+            'placeholders' => array(
+                '*' => WEBROOT . DS . 'img' . DS . 'placeholder-image.jpg'
+            )
+        )
+    ))
+);
+```
+
+```php
+/**
+ * Use a placeholder for all generic images, a specific placeholder for product images,
+ * and a placeholder service for category images.
+ * /img/category/missing-image.jpg --> Pulls in a random puppy image
+ * /img/product/missing-image.jpg --> Uses /img/missing-product.image.jpg
+ * /img/wherever-else/missing-image.jpg --> Uses /img/placeholder-image.jpg
+ */
+echo \Munee\Dispatcher::run(
+    new \Munee\Request(array(
+        'image' => array(
+            'placeholders' => array(
+                '/category/*' => 'http://placedog.com/1024/768',
+                '/product/*' => WEBROOT . DS . 'img' . DS . 'missing-product-image.jpg',
+                '*' => WEBROOT . DS . 'img' . DS . 'placeholder-image.jpg'
+            )
+        )
+    ))
+);
 ```
