@@ -10,9 +10,9 @@ ______
 * Minifying and Gzip Server Response
 ______
 
-## Why the name Munee?
+## Why the name *Munee*?
 
-A PHP5.3 library to easily on-the-fly compile LESS, SCSS (SASS is not supported!), or CoffeeScript, resize/manipulate images on-the-fly, minify CSS and JS, and cache assets locally and remotely for lightening fast requests. No need to change how you include your assets in your templates. Just follow the couple of installation instructions below and you are ready to go!
+The reason I chose the name *Munee* is because it sounds like 'Money' which is another word for 'Assets' and what this library optimises. Also, I needed a top level uniquely named Namespace for the library.
 ______
 
 ## Requirements
