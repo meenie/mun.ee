@@ -1,8 +1,8 @@
 <p class="lead">
     <strong>Munee</strong> is a PHP5.3 library to easily on-the-fly compile LESS, SCSS, or CoffeeScript,
     resize/manipulate images on-the-fly, minify CSS and JS, and cache assets locally and remotely for lightening fast
-    requests. No need to change how you include your assets in your templates. Just follow the couple of installation
-    instructions below and you are ready to go!
+    requests. No need to change how you include your assets in your templates.
+    <br><br>Just follow the couple of <a href="/Installation_Instructions">installation instructions here</a> and you are ready to go!
 </p>
 
 <hr/>
@@ -11,7 +11,7 @@
 <div class="row features">
     <div class="span5"><i class="feature-icon icon-flag"></i>
 
-        <h4><a href="/Installation_Instructions">Easy To Install &amp; Use</a></h4>
+        <h4>Easy To Install &amp; Use</h4>
 
         <p>
             Using <a href="http://getcomposer.org" target="_blank">Composer</a>, <em><strong>Munee</strong></em> can be

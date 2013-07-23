@@ -1,4 +1,4 @@
-*Munee* is a PHP5.3 library to easily on-the-fly compile LESS, SCSS (SASS is not supported!), or CoffeeScript, resize/manipulate images on-the-fly, minify CSS and JS, and cache assets locally and remotely for lightening fast requests. No need to change how you include your assets in your templates. Just follow the couple of installation instructions below and you are ready to go!
+*Munee* is a PHP5.3 library to easily on-the-fly compile LESS, SCSS (SASS is not supported!), or CoffeeScript, resize/manipulate images on-the-fly, minify CSS and JS, and cache assets locally and remotely for lightening fast requests. No need to change how you include your assets in your templates.
 ______
 
 ## Features
