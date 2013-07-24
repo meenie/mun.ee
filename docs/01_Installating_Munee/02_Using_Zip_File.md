@@ -1,8 +1,10 @@
 You can download a zip file that contains *Munee* as well as it's library dependencies. This means there is no need to use Composer.
+______
 
 ## Step 1: Download Munee.zip File
 
 Download the zip and extract it in your application; preferrably outside of webroot: <a href="/download.php?filename=munee.zip" id="zipDownload" class="btn btn-success">Download Munee.zip</a>
+______
 
 ## Step 2: Use Munee in your library</h2>
 

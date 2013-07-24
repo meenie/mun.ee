@@ -1,8 +1,10 @@
 *Munee* can be used by just including a [Phar](http://php.net/manual/en/book.phar.php) file when creating your dispatcher file.  There is no need to use Composer as *Munee* and all of it's library dependencies are packaged into the phar file.
+______
 
 ## Step 1: Download Munee.phar File
 
 Download the phar and place it in your application; preferrably outside of webroot: <a href="/download.php?filename=munee.phar" id="pharDownload" class="btn btn-success">Download Munee.phar</a>
+______
 
 ## Step 2: Use Munee in your library</h2>
 
