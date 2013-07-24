@@ -14,7 +14,8 @@
         "syntax-string": "#022e99",
         "syntax-comment": "#84989b",
         "syntax-number": "#2f9b92",
-        "syntax-label": "#840d7a"
+        "syntax-label": "#840d7a",
+        "short-title": "Munee"
     },
 	"repo": "meenie/munee",
     "float": false,

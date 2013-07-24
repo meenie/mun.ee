@@ -73,43 +73,43 @@ ______
     <th>Name</th><th>Type</th><th>Default</th><th>Description</th>
   </tr>
   <tr>
-    <td><code>height</code> (or <code>h</code>)</td>
+    <td class="no-wrap"><code>height</code> (or <code>h</code>)</td>
     <td>Integer</td>
     <td>N/A</td>
     <td>The max height you want the image.</td>
   </tr>
   <tr>
-    <td><code>width</code> (or <code>w</code>)</td>
+    <td class="no-wrap"><code>width</code> (or <code>w</code>)</td>
     <td>Integer</td>
     <td>N/A</td>
     <td>The max width you want the image.</td>
   </tr>
   <tr>
-    <td><code>exact</code> (or <code>e</code>)</td>
+    <td class="no-wrap"><code>exact</code> (or <code>e</code>)</td>
     <td>Boolean</td>
     <td><code>false</code></td>
     <td>Crop the image to the exact <code>height</code> and <code>width</code>.</td>
   </tr>
   <tr>
-    <td><code>stretch</code> (or <code>s</code>)</td>
+    <td class="no-wrap"><code>stretch</code> (or <code>s</code>)</td>
     <td>Boolean</td>
     <td><code>false</code></td>
     <td>Stretch the image to match the exact <code>height</code> and <code>width</code>.</td>
   </tr>
   <tr>
-    <td><code>fill</code> (or <code>f</code>)</td>
+    <td class="no-wrap"><code>fill</code> (or <code>f</code>)</td>
     <td>Boolean</td>
     <td><code>false</code></td>
     <td>Draw a background the exact size of the <code>height</code> and <code>width</code> and centre the image in the middle. (If you do not want the image to be stretched, then do not use the <code>stretch</code> argument along with <code>fill</code>).</td>
   </tr>
   <tr>
-    <td><code>fillColour</code> (or <code>fc</code>)</td>
-    <td>HEX Colour (without #)</td>
+    <td class="no-wrap"><code>fillColour</code> (or <code>fc</code>)</td>
+    <td class="no-wrap">HEX Colour (without #)</td>
     <td><code>FFFFFF</code></td>
     <td>This works in conjunction with <code>fill</code>. The colour of the filled in background.</td>
   </tr>
   <tr>
-    <td><code>quality</code> (or <code>q</code>)</td>
+    <td class="no-wrap"><code>quality</code> (or <code>q</code>)</td>
     <td>Integer</td>
     <td><code>75</code></td>
     <td>JPEG compression value.</td>
