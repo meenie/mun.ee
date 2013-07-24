@@ -169,9 +169,6 @@ if ($homepage && $homepage_url !== '/') {
 						<a href="<?php echo $docs_url;?>" class="btn btn-primary btn-hero">
 							View Documentation
 						</a>
-                        <a href="<?php echo $docs_url;?>" class="btn btn-secondary btn-hero">
-                            Download Munee
-                        </a>
 					</div>
 				</div>
 			</div>

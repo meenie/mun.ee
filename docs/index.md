@@ -2,7 +2,7 @@
     <strong>Munee</strong> is a PHP5.3 library to easily on-the-fly compile LESS, SCSS, or CoffeeScript,
     resize/manipulate images on-the-fly, minify CSS and JS, and cache assets locally and remotely for lightening fast
     requests. No need to change how you include your assets in your templates.
-    <br><br>Just follow the couple of <a href="/Installation_Instructions">installation instructions here</a> and you are ready to go!
+    <br><br>You can install <em>Munee</em> using either <a href="/Installating_Munee/With_Composer">Composer</a>, <a href="/Installating_Munee/Using_Phar_File">Phar File</a>, or a <a href="/Installating_Munee/Using_Zip_File">Zip Archive</a>. Choose your pick!
 </p>
 
 <hr/>
