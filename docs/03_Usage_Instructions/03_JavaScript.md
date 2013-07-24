@@ -1,7 +1,7 @@
 *Munee* can be used to minify JavaScript as well as compile CoffeeScript into JavaScript on-the-fly. The only thing you need to do for the CoffeeScript to be comiled is set the extension of your file to `.coffee` and link it to your document.
 ________
 
-## Dispatcher Options
+<h2 id="dispatcher-options">Dispatcher Options</h2>
 
 These options can be set in the first parameter of the `Request` class in the dispatcher file. For example:
 
@@ -61,9 +61,11 @@ _______
   <tr>
     <td><code>packer</code></td>
     <td><code>true</code></td>
-    <td>Run the javascript through the [Packer Library](http://joliclic.free.fr/php/javascript-packer/en/).</td>
+    <td>Run the javascript through the <a href="http://joliclic.free.fr/php/javascript-packer/en/" target="_blank">Packer Library</a>.</td>
   </tr>
 </table>
+
+**Note:** You can set a couple of different options for Packer above in the [Dispatcher Options](#dispatcher-options).
 
 ### Packer Example
 
