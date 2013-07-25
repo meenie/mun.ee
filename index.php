@@ -169,6 +169,9 @@ if ($homepage && $homepage_url !== '/') {
 						<a href="<?php echo $docs_url;?>" class="btn btn-primary btn-hero">
 							View Documentation
 						</a>
+                        <a href="/api/index.html" target="_blank" class="btn btn-secondary btn-hero">
+                            View API
+                        </a>
 					</div>
 				</div>
 			</div>
