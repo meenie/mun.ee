@@ -47,7 +47,7 @@ _________
 
 ### Minify Example
 
-This would convert the image to grayscale.
+This would minify the JavaScript file referenced.
 ```html
 <script src="/js/libs/jquery-1.8.1.min.js,/js/libs/bootstrap.min.js,/js/site.js?minify=true"></script>
 ```
@@ -69,7 +69,7 @@ _______
 
 ### Packer Example
 
-This would convert the image to grayscale.
+This would pack the JavaScript file referenced.
 ```html
 <script src="/js/site.js?packer=true"></script>
 ```
