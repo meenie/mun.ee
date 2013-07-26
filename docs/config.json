@@ -1,6 +1,6 @@
 {
 	"title": "Munee: Standalone PHP 5.3 Asset Optimisation & Manipulation",
-	"tagline": "On-The-Fly Image Resizing, On-the-fly LESS, SASS, CoffeeScript Compiling, CSS & JavaScript Combining/Minifying, and Smart Client Side and Server Side Caching",
+	"tagline": "On-The-Fly Image Resizing, On-the-fly LESS, SCSS, CoffeeScript Compiling, CSS & JavaScript Combining/Minifying, and Smart Client Side and Server Side Caching",
 
     "theme": "custom",
     "colors": {
