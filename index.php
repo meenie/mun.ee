@@ -212,6 +212,7 @@ if ($homepage && $homepage_url !== '/') {
                             <a href="http://travis-ci.org/meenie/munee"><img style="padding-bottom: 10px" src="https://secure.travis-ci.org/meenie/munee.png?branch=master" alt="Build Status" style="max-width:100%;"></a>
                             <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://mun.ee" data-text="Munee: Standalone PHP5.3 Asset Optimisation &amp; Manipulation - Easy Image Resizing &amp; LESS Compiling" data-via="MuneePHP">Tweet</a>
                             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                            <div class="fb-like" data-href="http://mun.ee" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true" data-font="arial"></div>
 						</div>
 					</div>
 				</div>
@@ -264,6 +265,7 @@ if ($homepage && $homepage_url !== '/') {
                                 <a href="http://travis-ci.org/meenie/munee"><img style="padding-bottom: 10px" src="https://secure.travis-ci.org/meenie/munee.png?branch=master" alt="Build Status" style="max-width:100%;"></a>
                                 <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://mun.ee" data-text="Munee: Standalone PHP5.3 Asset Optimisation &amp; Manipulation - Easy Image Resizing &amp; LESS Compiling" data-via="MuneePHP">Tweet</a>
                                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                                <div class="fb-like" data-href="http://mun.ee" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true" data-font="arial"></div>
 							</div>
 						<?php } ?>
 					</div>
@@ -291,5 +293,13 @@ if ($homepage && $homepage_url !== '/') {
 
 </script>
 <?php } ?>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=431929993530034";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </body>
 </html>
