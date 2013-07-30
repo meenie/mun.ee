@@ -45,7 +45,7 @@ ______
 
 ### Minify Example
 
-This would convert the image to grayscale.
+This would minify the css (Strip all non-essential whitespace).
 ```html
 <link rel="stylesheet" href="/css/site.css?minify=true">
 ```
