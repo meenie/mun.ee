@@ -94,11 +94,13 @@ function docs_url($tree, $branch = false) {
 
 function load_page($tree) {
 	$branch = find_branch($tree);
-
 	if (isset($branch['type']) && $branch['type'] == 'file') {
 		$html = '';
 		if ($branch['name'] !== 'index') {
-			$html .= '<div class="page-header"><h1>'. $branch['title'] . '</h1></div>';
+			$html .= '<div class="page-header">
+    		        <a href="https://github.com/meenie/mun.ee/edit/master/' . $branch['path'] . '" title="You must be logged into Github for this to work." class="btn btn-primary pull-right improve-button">Improve This Page</a>
+			<h1>'. $branch['title'] . '</h1>
+                    </div>';
 		}
 		$html .= MarkdownExtended(file_get_contents($branch['path']));
 		return $html;
