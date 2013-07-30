@@ -98,7 +98,7 @@ function load_page($tree) {
 		$html = '';
 		if ($branch['name'] !== 'index') {
 			$html .= '<div class="page-header">
-    		        <a href="https://github.com/meenie/mun.ee/edit/master/' . $branch['path'] . '" title="You must be logged into Github for this to work." class="btn btn-primary pull-right improve-button">Improve This Page</a>
+    		        <a href="https://github.com/meenie/mun.ee/edit/master/' . $branch['path'] . '" target="_blank" title="You must be logged into Github for this to work." class="btn btn-primary pull-right improve-button">Improve This Page</a>
 			<h1>'. $branch['title'] . '</h1>
                     </div>';
 		}
