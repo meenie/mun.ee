@@ -1,3 +1,9 @@
+#### Version 1.5.15
+<ul>
+<li> - Fixed "PHP Warning: Invalid argument supplied for foreach()" in Image::checkNumberOfAllowedFilters() when glob() returns false - Moved Image::checkNumberOfAllowedFilters() and Image::checkReferrer() calls into Image::setupFile() function - Removed duplicate code in Image::checkCache() &mdash; Alexander Wenzel &bull; <a href="http://github.com/meenie/munee/commit/7b6317b5848417aaf2cd93ddfa651f42b10f602d" target="_blank">7b6317b</a></li>
+<li> Changing SASS to SCSS &mdash; Cody Lundquist &bull; <a href="http://github.com/meenie/munee/commit/226e03dcb5fcb8c3008ead5d44737779334d1da8" target="_blank">226e03d</a></li>
+</ul>
+
 #### Version 1.5.14
 
 <ul>
