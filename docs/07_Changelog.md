@@ -1,3 +1,8 @@
+#### Version 1.5.17
+<ul>
+<li> Adding in new CompilationException and removing cache file if it is called. Also putting in new relative path fix for CSS stylesheets. &mdash; Cody Lundquist &bull; <a href="http://github.com/meenie/munee/commit/b83c399176b0a9bcf88fb214338e63f9a896bcbf" target="_blank">b83c399</a></li>
+</ul>
+
 #### Version 1.5.16
 <ul>
 <li> Fixing an issue with relative paths not converting to absolute paths correctly.  This should fix issue #32.  I also implemented the feature requests in issue #24, issue #27, and issue #21. &mdash; Cody Lundquist &bull; <a href="http://github.com/meenie/munee/commit/52c78f6ddfd816a449f78f821a3b33f582606859" target="_blank">52c78f6</a></li>
