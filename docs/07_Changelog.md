@@ -1,3 +1,8 @@
+#### Version 1.5.16
+<ul>
+<li> Fixing an issue with relative paths not converting to absolute paths correctly.  This should fix issue #32.  I also implemented the feature requests in issue #24, issue #27, and issue #21. &mdash; Cody Lundquist &bull; <a href="http://github.com/meenie/munee/commit/52c78f6ddfd816a449f78f821a3b33f582606859" target="_blank">52c78f6</a></li>
+</ul>
+
 #### Version 1.5.15
 <ul>
 <li> - Fixed "PHP Warning: Invalid argument supplied for foreach()" in Image::checkNumberOfAllowedFilters() when glob() returns false - Moved Image::checkNumberOfAllowedFilters() and Image::checkReferrer() calls into Image::setupFile() function - Removed duplicate code in Image::checkCache() &mdash; Alexander Wenzel &bull; <a href="http://github.com/meenie/munee/commit/7b6317b5848417aaf2cd93ddfa651f42b10f602d" target="_blank">7b6317b</a></li>
