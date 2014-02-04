@@ -33,3 +33,11 @@ Open the `.htaccess` file in your webroot and paste in the following:
 RewriteRule ^(.*\.(?:css|less|scss|js|coffee|jpg|png|gif|jpeg))$ munee.php?files=/$1 [L,QSA,NC]
 #### Munee .htaccess Code End ####
 ```
+
+If you use `nginx` open your config file and paste in the following: 
+
+```bash
+location / {
+    rewrite ^(.+.(css|less|scss|js|coffee|gif|jpe?g|png))$ /munee.php?files=/$1 break;
+}
+```
